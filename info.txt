@@ -3,3 +3,33 @@
 
 2. gradle tasks : Shows all available tasks to run.
 
+3. gradle dependencies
+   gradle dependencies --configuration compile
+
+4.  gradle -q projects : To see how many projects we have.
+
+5. gradle -q clean : To remove the build directory.
+
+6. ./gradlew -q projects : Its a thin wrapper around gradle, its work is to download the correct gradle version as per workspace if its different.
+
+7. gradle wrapper --gradle-version 3.5 : To create gradle wrapper.
+
+8. Gradle tasks are functions performed by gradle, consist of one or more actions. By performing a task, action within task will be executed. One task is dependent on other task, so might be calling one task will call many.
+
+9. To run a gradle build task : gradle build
+
+10. To see available gradle tasks: gradle tasks
+    https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_tasks
+
+11. Gradle view tool is an alternate way of running gradle tasks.
+
+12. To run a custom task : gradle showDate
+
+13. To see all tasks : gradle tasks --all
+
+14. Gradle profiling is used to see build performance.
+    gradle build --profile
+
+15. Cloud build scan : Its build report and saved to cloud.These cloud services managed by gradle.
+    gradle build --scan
+16. 
