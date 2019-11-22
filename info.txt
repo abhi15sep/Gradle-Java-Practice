@@ -1,0 +1,5 @@
+1. gradle properties : To see all properties of project object.
+   https://docs.gradle.org/current/dsl/org.gradle.api.Project.html
+
+2. gradle tasks : Shows all available tasks to run.
+
